@@ -1,0 +1,178 @@
+body {
+  background-color: hsl(0, 0%, 94%);
+  color: hsl(0, 1%, 44%);
+  font-family: "Poppins", sans-serif;
+}
+body main section {
+  background-color: hsl(0, 0%, 100%);
+  width: 52rem;
+  padding: 3.5rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 13rem;
+}
+body main section #boxInputs {
+  gap: 2rem;
+}
+body main section #boxInputs #day #dayText,
+body main section #boxInputs #day #monthText,
+body main section #boxInputs #day #yearText,
+body main section #boxInputs #month #dayText,
+body main section #boxInputs #month #monthText,
+body main section #boxInputs #month #yearText,
+body main section #boxInputs #year #dayText,
+body main section #boxInputs #year #monthText,
+body main section #boxInputs #year #yearText {
+  font-size: 0.85em;
+  letter-spacing: 0.2rem;
+}
+body main section #boxInputs #day input,
+body main section #boxInputs #month input,
+body main section #boxInputs #year input {
+  max-width: 9.75rem;
+  padding: 0.7rem 0rem 0.7rem 1.3rem;
+  border: 1px solid hsl(0, 0%, 86%);
+}
+body main section #boxInputs #day input:hover,
+body main section #boxInputs #month input:hover,
+body main section #boxInputs #year input:hover {
+  cursor: pointer;
+  border: 1px solid hsl(259, 100%, 65%);
+}
+body main section #boxInputs #day input[type=text],
+body main section #boxInputs #month input[type=text],
+body main section #boxInputs #year input[type=text] {
+  font-size: 2em;
+  font-weight: 700;
+}
+body main section #boxInputs #dayError,
+body main section #boxInputs #monthError,
+body main section #boxInputs #yearError {
+  color: hsl(0, 100%, 67%);
+  font-size: 0.85em;
+}
+body main section #button .hrB {
+  margin-top: 3rem;
+  background-color: hsl(0, 0%, 86%);
+  height: 1px;
+  width: 85%;
+}
+body main section #btn {
+  background-color: hsl(259, 100%, 65%);
+  height: 6rem;
+  width: 6rem;
+  border: none;
+  border-radius: 50%;
+}
+body main section #btn:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 8%);
+}
+body main section #content {
+  color: hsl(0, 0%, 8%);
+  font-size: 6.6em;
+  line-height: 6rem;
+  letter-spacing: -0.15rem;
+  font-weight: 800;
+}
+body main section #content #days,
+body main section #content #months,
+body main section #content #years {
+  color: hsl(259, 100%, 65%);
+  margin-right: 0.5rem;
+  transition-duration: 1s;
+}
+body footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 850px) {
+  body main section {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  body main section #button .hrB {
+    margin-top: 4.5rem;
+    width: 100%;
+  }
+  body main section #button #btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 6rem;
+    width: 14rem;
+  }
+  body main section #button .hrA {
+    margin-top: 4.5rem;
+    background-color: hsl(0, 0%, 86%);
+    height: 1px;
+    width: 100%;
+  }
+  body footer {
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body main section {
+    width: 21.5rem;
+    padding: 3rem 1.75rem 3.75rem 1.75rem;
+    border-bottom-right-radius: 6rem;
+  }
+  body main section #content {
+    font-size: 3.5em;
+  }
+  body main section #content #yearsDiv,
+  body main section #content #monthsDiv,
+  body main section #content #daysDiv {
+    height: 3.5rem;
+  }
+  body main section #content #daysText,
+  body main section #content #monthsText,
+  body main section #content #yearsText {
+    margin-bottom: 0;
+  }
+  body main section #boxInputs {
+    gap: 0.75rem;
+  }
+  body main section #boxInputs #day #dayText,
+  body main section #boxInputs #day #monthText,
+  body main section #boxInputs #day #yearText,
+  body main section #boxInputs #month #dayText,
+  body main section #boxInputs #month #monthText,
+  body main section #boxInputs #month #yearText,
+  body main section #boxInputs #year #dayText,
+  body main section #boxInputs #year #monthText,
+  body main section #boxInputs #year #yearText {
+    font-size: 0.75em;
+  }
+  body main section #boxInputs #day input,
+  body main section #boxInputs #month input,
+  body main section #boxInputs #year input {
+    max-width: 5.5rem;
+    padding: 0.5rem 0.5rem;
+  }
+  body main section #boxInputs #day input[type=text],
+  body main section #boxInputs #month input[type=text],
+  body main section #boxInputs #year input[type=text] {
+    font-size: 1.1em;
+  }
+  body main section #button .hrB {
+    margin-top: 2.5rem;
+  }
+  body main section #button #btn {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 3.5rem;
+    width: 8rem;
+  }
+  body main section #button #btn img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  body main section #button .hrA {
+    margin-top: 2.5rem;
+  }
+  body footer {
+    font-size: 0.6em;
+  }
+}/*# sourceMappingURL=style.css.map */
